@@ -26,16 +26,16 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /katalog/actuator/health
+              path: /actuator/health
               port: server
-            initialDelaySeconds: 10
-            periodSeconds: 3
+            initialDelaySeconds: 20
+            periodSeconds: 5
           readinessProbe:
             httpGet:
-              path: /katalog/actuator/health
+              path: /actuator/health
               port: server
-            initialDelaySeconds: 10
-            periodSeconds: 3
+            initialDelaySeconds: 20
+            periodSeconds: 5
 
 ---
 

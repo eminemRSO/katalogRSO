@@ -1,6 +1,6 @@
 server:
   servlet:
-    context-path: /katalog
+    context-path: /
   port: 8087
 
 spring:
