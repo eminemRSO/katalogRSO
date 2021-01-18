@@ -26,6 +26,10 @@ dependencies {
 
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
+	//za circuit breaker
+	//implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
+	//za retry
+	implementation("org.springframework.retry:spring-retry")
 
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 
